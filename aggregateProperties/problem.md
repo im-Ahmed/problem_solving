@@ -35,12 +35,13 @@ const data = [
 An array of objects. For example:
 
 ````js
-const data = [
-  { userId: 'u1', event: 'login', timestamp: 1678886400 },
-  { userId: 'u2', event: 'logout', duration: 120 },
-  { userId: 'u1', event: 'pageview', pageId: 'home' },
-  { userId: 'u3', event: 'login', timestamp: 1678886500, region: 'us' }
-];
+├───────────┼────────────┼────────────┼────────────┼─────────┤
+│ userId    │ 'u1'       │ 'u2'       │ 'u1'       │ 'u3'    │
+│ event     │ 'login'    │ 'logout'   │ 'pageview' │ 'login' │
+│ timestamp │ 1678886400 │ 1678886500 │            │         │
+│ duration  │ 120        │            │            │         │
+│ pageId    │ 'home'     │            │            │         │
+│ region    │ 'us'       │            │            │         │
  --
 ## 📌 Constraints
 The function should handle any number of unique properties.
