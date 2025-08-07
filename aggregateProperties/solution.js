@@ -6,23 +6,26 @@ const data = [
 ];
 
 const aggregateProperties = (data) => {
-  if (!data || data.length === 0) {
-    return {};
-  }
-
-  return data.reduce((accumulator, currentObject, index) => {
-    for (const key in currentObject) {
-      if (!accumulator[key]) {
-        // If the key doesn't exist, initialize it with an array containing the value
-        accumulator[key] = [currentObject[key]];
-      } else {
-        // If the key exists, push the new value to its array
-        accumulator[key].push(currentObject[key]);
-      }
+    if (!data || data.length === 0) {
+      return {};
     }
-    return accumulator;
-  }, {}); // The initial value for the accumulator is an empty object
-};
-
-const result = aggregateProperties(data);
-console.log(result);
+  
+    return data.reduce((accumulator, currentObject,index) => {
+      console.log(currentObject,index)
+      for (const key in currentObject) {
+        if (Object.prototype.hasOwnProperty.call(currentObject, key)) {
+          if (!accumulator[key]) {
+            // If the key doesn't exist, initialize it with an array containing the value
+            accumulator[key] = [currentObject[key]];
+          } else {
+            // If the key exists, push the new value to its array
+            accumulator[key].push(currentObject[key]);
+          }
+        }
+      }
+      return accumulator;
+    }, {}); // The initial value for the accumulator is an empty object
+  };
+  
+  const result = aggregateProperties(data);
+  console.log(result);
