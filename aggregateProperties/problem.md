@@ -41,14 +41,14 @@ const data = [
 
 An array of objects. For example:
 
-├───────────┼────────────┼────────────┼────────────┼─────────┤
-│ userId    │ 'u1'       │ 'u2'       │ 'u1'       │ 'u3'    │
-│ event     │ 'login'    │ 'logout'   │ 'pageview' │ 'login' │
-│ timestamp │ 1678886400 │ 1678886500 │            │         │
-│ duration  │ 120        │            │            │         │
-│ pageId    │ 'home'     │            │            │         │
-│ region    │ 'us'       │            │            │         │
-
+{
+  userId: [ 'u1', 'u2', 'u1', 'u3' ],
+  event: [ 'login', 'logout', 'pageview', 'login' ],
+  timestamp: [ 1678886400, 1678886500 ],
+  duration: [ 120 ],
+  pageId: [ 'home' ],
+  region: [ 'us' ]
+}
 
 
 

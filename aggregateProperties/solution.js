@@ -27,4 +27,4 @@ const aggregateProperties = (data) => {
   };
   
   const result = aggregateProperties(data);
-  console.table(result);
+  console.log(result);
