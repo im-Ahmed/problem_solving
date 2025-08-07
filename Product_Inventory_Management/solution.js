@@ -17,13 +17,13 @@ const updateInventory = (currentInv, newInv) => {
     const itemIndex = currentInv.findIndex(
       (currentItem) => currentItem[1] === newItem[1]
     );
-    if(itemIndex !== -1){
-        currentInv[itemIndex][0] += newItem[0];
-    }else{
-        currentInv.push(newItem);
+    if (itemIndex !== -1) {
+      currentInv[itemIndex][0] += newItem[0];
+    } else {
+      currentInv.push(newItem);
     }
   }
-  return currentInv.sort((a, b) => a[1].localeCompare(b[1]));
+  return currentInv.sort((a, b) => a[1].localeCompare(b[1])); // to alphabetically compare second element of each child array
 };
 
 let result = updateInventory(currentInv, newInv);
