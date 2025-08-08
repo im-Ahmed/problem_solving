@@ -20,4 +20,5 @@ Each day gets its own folder containing:
 ## 📂 Daily Problems
 - [Day 01 - Dynamic Property Aggregation](./aggregateProperties)
 - [Day 02 - Product Inventory Management](./Product_Inventory_Management)
+- [Day 03 - Product of the Others](./Product_of_the_Others)
 
