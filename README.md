@@ -21,4 +21,5 @@ Each day gets its own folder containing:
 - [Day 01 - Dynamic Property Aggregation](./aggregateProperties)
 - [Day 02 - Product Inventory Management](./Product_Inventory_Management)
 - [Day 03 - Product of the Others](./Product_of_the_Others)
+- [Day 04 - Flatten Nested Hierarchy](./Flatten_Nested_Hierarchy)
 
