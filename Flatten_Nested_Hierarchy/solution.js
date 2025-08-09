@@ -16,13 +16,15 @@ const hierarchy = [
 
 const flattenHierarchy = (hierarchy) => {
   return hierarchy.reduce((acc, currentObj) => {
+    // add the id and name of current object into result
     const result = [...acc, { id: currentObj.id, name: currentObj.name }];
+    // if the current object contains children then 
     if (currentObj.children && currentObj.children.length > 0) {
       return result.concat(flattenHierarchy(currentObj.children));
     }
 
     return result;
-  }, []);
+  }, []); // initialize the accumulator as an empty array
 };
 const result = flattenHierarchy(hierarchy);
 console.log(result);
