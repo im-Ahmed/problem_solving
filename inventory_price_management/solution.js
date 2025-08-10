@@ -6,9 +6,11 @@ const products = [
 ];
 
 const calculateInventoryValue = (products) => {
-  return products.reduce((acc, currentProduct) => {
-    return (acc += currentProduct.price * currentProduct.quantity);
-  }, 0);
+  return products.reduce(
+    (acc, currentProduct) =>
+      acc + currentProduct.price * currentProduct.quantity,
+    0
+  );
 };
 
 const result = calculateInventoryValue(products);
