@@ -23,4 +23,5 @@ Each day gets its own folder containing:
 - [Day 03 - Product of the Others](./Product_of_the_Others)
 - [Day 04 - Flatten Nested Hierarchy](./Flatten_Nested_Hierarchy)
 - [Day 05 - Inventory Price Management](./inventory_price_management)
+- [Day 06 - Group Anagram](./group_anagrams)
 
