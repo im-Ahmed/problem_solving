@@ -65,7 +65,7 @@ sort: true
 **Input:**
 
 ```javascript
-cconst url2 = "https://www.example.com/home";
+const url2 = "https://www.example.com/home";
 const params2 = parseUrlParams(url2);
 ```
 
