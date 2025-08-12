@@ -24,4 +24,5 @@ Each day gets its own folder containing:
 - [Day 04 - Flatten Nested Hierarchy](./Flatten_Nested_Hierarchy)
 - [Day 05 - Inventory Price Management](./inventory_price_management)
 - [Day 06 - Group Anagram](./group_anagrams)
+- [Day 07 - URL Params Parser](./URL_params_parser)
 
