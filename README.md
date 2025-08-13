@@ -25,4 +25,5 @@ Each day gets its own folder containing:
 - [Day 05 - Inventory Price Management](./inventory_price_management)
 - [Day 06 - Group Anagram](./group_anagrams)
 - [Day 07 - URL Params Parser](./URL_params_parser)
+- [Day 08 - Contiguous Subarray with the Largest Sum](./contiguous_sub_array_with_largest_sum)
 
