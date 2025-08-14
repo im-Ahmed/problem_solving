@@ -26,4 +26,5 @@ Each day gets its own folder containing:
 - [Day 06 - Group Anagram](./group_anagrams)
 - [Day 07 - URL Params Parser](./URL_params_parser)
 - [Day 08 - Contiguous Subarray with the Largest Sum](./contiguous_sub_array_with_largest_sum)
+- [Day 09 - Schedule Conflict Detector](./Schedule_Conflict_Detector)
 
