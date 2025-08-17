@@ -29,3 +29,4 @@ Each day gets its own folder containing:
 - [Day 09 - Schedule Conflict Detector](./Schedule_Conflict_Detector)
 - [Day 10 - Dynamic API Endpoint generator](./dynamic_API_endpoint_creator)
 - [Day 11 - Dynamic Star Rating](./dynamic_star_rating)
+- [Day 12 - Grouping and Transforming API Data](./grouping_and_transforming_API_data)
