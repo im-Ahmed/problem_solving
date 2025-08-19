@@ -31,3 +31,4 @@ Each day gets its own folder containing:
 - [Day 11 - Dynamic Star Rating](./dynamic_star_rating)
 - [Day 12 - Grouping and Transforming API Data](./grouping_and_transforming_API_data)
 - [Day 13 - String Pattern Matching with Wildcards](./string_pattern_matching)
+- [Day 14 - Validate and Format User tags list](./validate_and_format_tag_list)
