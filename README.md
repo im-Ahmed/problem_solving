@@ -33,3 +33,4 @@ Each day gets its own folder containing:
 - [Day 13 - String Pattern Matching with Wildcards](./string_pattern_matching)
 - [Day 14 - Validate and Format User tags list](./validate_and_format_tag_list)
 - [Day 15 - Form Data Validator](./data_validator)
+- [Day 16 - Transaction Categorizer](./transaction_categorizer)
