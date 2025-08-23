@@ -35,3 +35,4 @@ Each day gets its own folder containing:
 - [Day 15 - Form Data Validator](./data_validator)
 - [Day 16 - Transaction Categorizer](./transaction_categorizer)
 - [Day 17 - Sparse Array Summation](./sparse_array_summation)
+- [Day 18 - CSV to JSON](./csv_to_JSON)
