@@ -37,3 +37,4 @@ Each day gets its own folder containing:
 - [Day 17 - Sparse Array Summation](./sparse_array_summation)
 - [Day 18 - CSV to JSON](./csv_to_JSON)
 - [Day 19 - Log File Analyzer](./log_file_analyzer)
+- [Day 20 - Validate and Transform IoT Data Stream](./validate_and_transform_IoT_data_stream)
