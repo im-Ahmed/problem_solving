@@ -2,10 +2,7 @@ function parseSocialContent(text) {
   const hashtags = new Set();
   const mentions = new Set();
 
-  // The regular expression looks for either a hashtag or a mention.
-  // `#([\w_]+)`: Captures a word starting with # followed by letters, numbers, or underscores.
-  // `@([\w_]+)`: Captures a word starting with @ followed by letters, numbers, or underscores.
-  // The `g` flag finds all matches, and `i` makes it case-insensitive.
+
   const regex = /(#[\w_]+)|(@[\w_]+)/gi;
 
   let match;
