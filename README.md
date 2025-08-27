@@ -39,3 +39,4 @@ Each day gets its own folder containing:
 - [Day 19 - Log File Analyzer](./log_file_analyzer)
 - [Day 20 - Validate and Transform IoT Data Stream](./validate_and_transform_IoT_data_stream)
 - [Day 21 - Log File Aggregator](./log_file_aggregator)
+- [Day 22 - Tag & Mention Parser](./tag_and_mention_parser)
