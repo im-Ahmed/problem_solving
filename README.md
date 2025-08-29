@@ -41,3 +41,4 @@ Each day gets its own folder containing:
 - [Day 21 - Log File Aggregator](./log_file_aggregator)
 - [Day 22 - Tag & Mention Parser](./tag_and_mention_parser)
 - [Day 23 - Find Duplicate Transactions](./find_duplicate_transactions)
+- [Day 24 - Sparse Array Union](./sparse_array_union)
