@@ -43,3 +43,4 @@ Each day gets its own folder containing:
 - [Day 23 - Find Duplicate Transactions](./find_duplicate_transactions)
 - [Day 24 - Sparse Array Union](./sparse_array_union)
 - [Day 25 - User Session Cleanup ](./user_session_cleanup )
+- [Day 26 - String Sanitization and Anonymization ](./string_sanitization_and_anonymization )
