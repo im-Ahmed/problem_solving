@@ -45,3 +45,6 @@ Each day gets its own folder containing:
 - [Day 25 - User Session Cleanup ](./user_session_cleanup)
 - [Day 26 - String Sanitization and Anonymization ](./string_sanitization_and_anonymization)
 - [Day 27 - Find Largest Palindromic Substring ](./largest_palindromic_substring)
+- [Day 28 - Optimize Meeting Room Scheduling](./optimize_meeting_room_scheduling)
+- [Day 29 - Unique Character Mapping](./unique_character_mapping)
+- [Day 30 - Endpoint Payload Validator](./endpoint_payload_validator)
